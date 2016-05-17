@@ -1,0 +1,44 @@
+/* The Warrior Code */
+
+.env { volume: x-loud; }
+#FullRangeOfMotion:enabled{ }
+#BodyStraight:enabled{ }
+
+body {
+    break-after: all;
+    deg: 90;
+    rotation: 0;
+    orientation: landscape;
+    turn: 0deg;
+}
+body:after {  visibility: collapse;  }
+
+head:focus-inner {
+    justify-content: unset;
+    position: absolute;
+    rest-after: x-strong;
+    speak: none;
+    user-focus: ignore;
+}
+head:after {  stress: 0%;  elevation: higher;  }
+
+.PushUps, .PushUps:first, .PushUps:last{
+    top : 100%;
+    bottom : 0% !important;
+    max-height: 100%;
+    min-height: 0% !important;
+    animation-direction: alternate;
+    animation-duration: 90s;
+    bleed: 10pt;
+    margin-before-collapse: 0%;
+    pause-after: x-weak;
+    break-after: all;
+    highlight:all;
+}
+
+    .PushUps:after {
+        display: flex;
+        flex-grow: 100%;
+        resize: both;
+        stack-sizing: stretch-to-fit;
+    }
