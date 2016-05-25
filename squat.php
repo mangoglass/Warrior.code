@@ -10,7 +10,7 @@ class squat extends posteriorChain {
         $sets = 5;
         $weight = ($oneRepMax / 100) * 90;
 
-        for ($set=0, $set.length, $set+1) {
+        for ($set=0, $sets-1, $set++) {
             foreach ($rep = 0; $rep < $repetitions-1; $rep++){
 
                 $check[$rep] = [
