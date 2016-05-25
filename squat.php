@@ -6,9 +6,8 @@ class squat extends posteriorChain {
 
     use glutes, hamStrings, adductors;
 
-    public function strength(reps) {
+    public function strength($repetitions = 2) {
         $sets = 5;
-        $repetitions = 2;
         $weight = ($oneRepMax / 100) * 90;
 
         for ($set=0, $set.length, $set+1) {
