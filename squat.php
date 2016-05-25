@@ -11,7 +11,7 @@ class squat extends posteriorChain {
         $weight = ($oneRepMax / 100) * 90;
 
         for ($set=0, $set.length, $set+1) {
-            foreach ($repetitions as $rep){
+            foreach ($rep = 0; $rep < $repetitions-1; $rep++){
 
                 $check[$rep] = [
                     "On Bar" => $weight,
